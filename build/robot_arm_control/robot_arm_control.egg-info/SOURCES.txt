@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+../../build/robot_arm_control/robot_arm_control.egg-info/PKG-INFO
+../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt
+../../build/robot_arm_control/robot_arm_control.egg-info/dependency_links.txt
+../../build/robot_arm_control/robot_arm_control.egg-info/entry_points.txt
+../../build/robot_arm_control/robot_arm_control.egg-info/requires.txt
+../../build/robot_arm_control/robot_arm_control.egg-info/top_level.txt
+robot_arm_control/trajectory_planning.py

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_urdf/urdf": No such
+  file or directory.
+
+[0m

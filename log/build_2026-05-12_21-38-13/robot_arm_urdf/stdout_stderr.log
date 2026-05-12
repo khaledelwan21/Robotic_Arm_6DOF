@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/hand2.STL
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/follower-gear.STL
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/gripper.STL
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_urdf/urdf": No such
+  file or directory.
+
+[0m
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/shoulder.STL
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/hand1.STL
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/pitch.STL
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/rest.STL
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/rolling.STL
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link2.STL
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/base_link.STL
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link1.STL
+-- Up-to-date: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/elbow.STL

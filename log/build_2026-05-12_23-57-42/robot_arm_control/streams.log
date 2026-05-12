@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.21.0/CMake/bin/cmake /home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_control
+[0.010s] [33mCMake Warning:
+[0.010s]   Ignoring extra path from command line:
+[0.010s] 
+[0.011s]    "/home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_control"
+[0.011s] 
+[0.011s] [0m
+[0.011s] [0mCMake Error: The source directory "/home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_control" does not appear to contain CMakeLists.txt.
+[0.011s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.013s] Invoked command in '/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_control' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.21.0/CMake/bin/cmake /home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_control

@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.21.0/CMake/bin/cmake /home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_urdf -DCMAKE_INSTALL_PREFIX=/home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf
+[0.058s] -- The C compiler identification is GNU 13.3.0
+[0.099s] -- The CXX compiler identification is GNU 13.3.0
+[0.115s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.166s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.224s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.232s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.333s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.473s] -- Configuring done (0.5s)
+[0.474s] -- Generating done (0.0s)
+[0.475s] -- Build files have been written to: /home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf
+[0.479s] Invoked command in '/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.21.0/CMake/bin/cmake /home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_urdf -DCMAKE_INSTALL_PREFIX=/home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf
+[0.480s] Invoking command in '/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.21.0/CMake/bin/cmake --build /home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf -- -j16 -l16
+[0.489s] Invoked command in '/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.21.0/CMake/bin/cmake --build /home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf -- -j16 -l16
+[0.491s] Invoking command in '/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.21.0/CMake/bin/cmake --install /home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf
+[0.493s] -- Install configuration: ""
+[0.493s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes
+[0.493s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/hand2.STL
+[0.493s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/follower-gear.STL
+[0.493s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/gripper.STL
+[0.493s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/shoulder.STL
+[0.494s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/hand1.STL
+[0.494s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/pitch.STL
+[0.494s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/rest.STL
+[0.494s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/rolling.STL
+[0.494s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link2.STL
+[0.494s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/base_link.STL
+[0.494s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link1.STL
+[0.494s] -- Installing: /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/elbow.STL
+[0.494s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.494s]   file INSTALL cannot find
+[0.494s]   "/home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_urdf/urdf": No such
+[0.495s]   file or directory.
+[0.495s] 
+[0.495s] [0m
+[0.495s] Invoked command in '/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.21.0/CMake/bin/cmake --install /home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_urdf

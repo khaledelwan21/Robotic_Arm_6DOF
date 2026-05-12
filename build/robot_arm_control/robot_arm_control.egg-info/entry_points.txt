@@ -1,0 +1,2 @@
+[console_scripts]
+trajectory_planning = robot_arm_control.trajectory_planning:main
