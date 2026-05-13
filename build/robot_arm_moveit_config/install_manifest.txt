@@ -31,5 +31,6 @@
 /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_moveit_config/share/robot_arm_moveit_config/config/moveit_controllers.yaml
 /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_moveit_config/share/robot_arm_moveit_config/config/moveit.rviz
 /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_moveit_config/share/robot_arm_moveit_config/config/URDF.srdf
+/home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_moveit_config/share/robot_arm_moveit_config/config/ompl_planning.yaml
 /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_moveit_config/share/robot_arm_moveit_config/config/URDF.ros2_control.xacro
 /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_moveit_config/share/robot_arm_moveit_config/.setup_assistant

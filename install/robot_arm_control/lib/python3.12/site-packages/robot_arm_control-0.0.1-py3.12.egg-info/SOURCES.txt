@@ -1,3 +1,4 @@
+package.xml
 setup.cfg
 setup.py
 ../../build/robot_arm_control/robot_arm_control.egg-info/PKG-INFO
@@ -6,4 +7,7 @@ setup.py
 ../../build/robot_arm_control/robot_arm_control.egg-info/entry_points.txt
 ../../build/robot_arm_control/robot_arm_control.egg-info/requires.txt
 ../../build/robot_arm_control/robot_arm_control.egg-info/top_level.txt
+launch/trajectory_planning.launch.py
+resource/robot_arm_control
+robot_arm_control/__init__.py
 robot_arm_control/trajectory_planning.py

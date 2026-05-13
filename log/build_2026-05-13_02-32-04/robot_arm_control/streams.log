@@ -1,0 +1,22 @@
+[0.478s] Invoking command in '/home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm_control build --build-base /home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_control/build install --record /home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_control/install.log --single-version-externally-managed install_data
+[0.624s] running egg_info
+[0.634s] writing ../../build/robot_arm_control/robot_arm_control.egg-info/PKG-INFO
+[0.634s] writing dependency_links to ../../build/robot_arm_control/robot_arm_control.egg-info/dependency_links.txt
+[0.634s] writing entry points to ../../build/robot_arm_control/robot_arm_control.egg-info/entry_points.txt
+[0.634s] writing requirements to ../../build/robot_arm_control/robot_arm_control.egg-info/requires.txt
+[0.634s] writing top-level names to ../../build/robot_arm_control/robot_arm_control.egg-info/top_level.txt
+[0.654s] reading manifest file '../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt'
+[0.655s] writing manifest file '../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt'
+[0.655s] running build
+[0.655s] running build_py
+[0.655s] running install
+[0.659s] running install_lib
+[0.669s] running install_data
+[0.669s] copying launch/trajectory_planning.launch.py -> /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_control/share/robot_arm_control/launch
+[0.669s] running install_egg_info
+[0.680s] removing '/home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_control/lib/python3.12/site-packages/robot_arm_control-0.0.1-py3.12.egg-info' (and everything under it)
+[0.680s] Copying ../../build/robot_arm_control/robot_arm_control.egg-info to /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_control/lib/python3.12/site-packages/robot_arm_control-0.0.1-py3.12.egg-info
+[0.680s] running install_scripts
+[0.752s] Installing trajectory_planning script to /home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_control/lib/robot_arm_control
+[0.752s] writing list of installed files to '/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_control/install.log'
+[0.770s] Invoked command in '/home/khaled-ahmed-elwan/ros2_arm_ws/src/robot_arm_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khaled-ahmed-elwan/ros2_arm_ws/install/robot_arm_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm_control build --build-base /home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_control/build install --record /home/khaled-ahmed-elwan/ros2_arm_ws/build/robot_arm_control/install.log --single-version-externally-managed install_data
