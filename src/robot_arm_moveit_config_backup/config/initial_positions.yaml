@@ -1,9 +1,0 @@
-# Default initial positions for URDF's ros2_control fake system
-
-initial_positions:
-  elbow: 0
-  gripper: 0
-  pitch: 0
-  rolling: 0
-  shoulder: 0
-  wrist: 0
