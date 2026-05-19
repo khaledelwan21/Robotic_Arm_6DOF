@@ -1,0 +1,15 @@
+[dof6,ArmInfo]=importrobot("Arm");
+x=[21.7 21.72] ;
+y=[1.182 1.182];
+z=[24.18 24.18] ;
+wp=[x;y;z] ;
+x1=[0 0];
+y1=[0 0];
+z1=[0 0];
+v=5*[x1;y1;z1];
+dof6.Bodies{2}.Joint.PositionLimits = deg2rad([-40 40]);
+dof6.Bodies{1}.Joint.PositionLimits = deg2rad([-90 90]);
+dof6.Bodies{3}.Joint.PositionLimits = deg2rad([-90 90]);
+dof6.Bodies{4}.Joint.PositionLimits = deg2rad([-90 90]);
+dof6.Bodies{5}.Joint.PositionLimits = deg2rad([-90 90]);
+dof6.Bodies{6}.Joint.PositionLimits = deg2rad([-90 90]);

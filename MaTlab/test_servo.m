@@ -1,0 +1,28 @@
+
+clear all 
+load('backup_workspace.mat') ;
+ang1 = rad2deg(out.shoulder.signals.values);
+ang2 = rad2deg(out.elbow.signals.values);
+ang3 = rad2deg(out.wrist.signals.values);
+ang4 = rad2deg(out.rolling.signals.values);
+ang5 = rad2deg(out.pitch.signals.values);
+
+a = arduino('COM9', 'ESP32-WROOM-DevKitC');
+
+s1 = servo(a, 'D13');
+s2 = servo(a, 'D12');
+s3 = servo(a, 'D14');
+s4 = servo(a, 'D27');
+s5 = servo(a, 'D26');
+step=5;
+for i = 1:step:length(ang1)
+    writePosition(s1, (ang1(i) + 90) / 180);
+    writePosition(s2, (1-(ang2(i) + 90) / 180));
+    writePosition(s3, (1-(ang3(i) + 90) / 180));
+    writePosition(s4, (ang4(i) + 90) / 180);
+    writePosition(s5,(ang5(i) + 90) / 180);
+   
+end
+run("trajPlot.m")
+
+disp('DONE')
