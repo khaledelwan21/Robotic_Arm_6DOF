@@ -120,7 +120,7 @@ PS Controller Teleoperation (Bluetooth)
 
 | Joint | Min | Max |
 |-------|-----|-----|
-| Shoulder | -90° | +40° |
+| Shoulder | -90° | +90° |
 | Elbow | -90° | +90° |
 | Wrist | -90° | +90° |
 | Rolling | -90° | +90° |
